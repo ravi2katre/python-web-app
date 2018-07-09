@@ -27,7 +27,8 @@ DEBUG = False
 
 ALLOWED_HOSTS = ['demo-helloworld.herokuapp.com']
 
-
+from backports import tempfile
+with tempfile.TemporaryDirectory() as temp_dir:
 # Application definition
 
 INSTALLED_APPS = [
