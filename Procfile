@@ -1,1 +1,1 @@
-web: gunicorn limitless-anchorage-12972.wsgi
+web: gunicorn HelloWorld.wsgi.application.wsgi
