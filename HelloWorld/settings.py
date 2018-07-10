@@ -23,7 +23,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = 'uefqx$ka)t6z7urfg$lkzr4z259+3=9!@0=$%%^^mv11y(ei3w'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = ['.limitless-anchorage-12972.herokuapp.com']
 
