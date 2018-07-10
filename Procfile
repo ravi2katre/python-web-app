@@ -1,1 +1,0 @@
-web: gunicorn limitless-anchorage-12972.wsgi --log-file -
