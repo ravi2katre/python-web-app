@@ -1,1 +1,1 @@
-web: gunicorn polar-chamber-51598.wsgi --log-file -
+web: gunicorn rk-helloworld.wsgi --log-file -
